@@ -1,0 +1,30 @@
+
+body{
+    
+    overflow-x: hidden;
+    background-image: url(./150920.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter:blur(3px);
+    overflow: hidden;
+}
+.contact{
+    text-align: center;
+    background-color:grey;
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 40px;
+    height: 60vh;
+    margin-left:10%;
+    margin-top: 10%;
+    width: 70%;
+    border: 2px solid black;
+    overflow: hidden;
+    
+    
+     
+}
+

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    background-image: url(D5\ \(2\).jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid sandybrown;
+    background-color: black;
+    color: white;
+}
+#box {
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    margin-top: 14%;
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    background-image: url(./istockphoto-1315152008-1024x1024.jpg);
+}
+.box1{
+    background-color: aqua;
+}

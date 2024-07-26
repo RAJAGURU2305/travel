@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+     /* background-color: white; */
+     background-image: url(./wp4069426_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    
+    background-color:gray;
+    color:white;
+    padding: 15px;
+
+}
+
+li,h1,ul{
+    display:inline;
+    justify-content: space-between;
+}
+
+ul{
+    margin-left: 60%;
+    color: gray;
+}
+
+li a{
+    cursor: pointer;
+}
+
+li a:hover{
+    color:blue;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 1px;
+    
+}
+
+input{
+    width:60%;
+    padding: 20px;
+
+}
+
+.searchbar{
+    
+    width:50px;
+
+}
+
+
+.LOGIN{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    
+}
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: slateblue;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+button:hover{
+    background-color: aqua;
+    color: beige; 
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+
+p{
+    font-size: 18px;
+    color:white;
+    font-family:sans-serif;
+    background-color:black;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
